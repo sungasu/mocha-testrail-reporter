@@ -44,7 +44,6 @@
   },
   "np": {
     "yarn": false,
-    "contents": "dist",
     "yolo": true
   }
 }
