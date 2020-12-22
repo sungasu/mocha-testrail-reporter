@@ -24,7 +24,7 @@
     "clean": "rimraf dist",
     "test": "mocha dist/test",
     "build": "npm run clean && npm run tsc",
-    "release": "np"
+    "release": "npm run build && np"
   },
   "dependencies": {
     "btoa": "^1.1.2",
